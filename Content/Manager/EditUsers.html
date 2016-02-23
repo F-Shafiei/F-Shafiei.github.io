@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>ویرایش کاربر</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+	
+	<link rel="stylesheet" href="css/Navbar.css">
+	
+	<!-- Bootstrap RTL Theme -->
+	<link rel="stylesheet" href="bootstrap-rtl.css">
+
+	<link rel="stylesheet" href="css/Tabs.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body dir="rtl">
+	<div class="container-fluid">
+		<div class="row"><!--Logo-->
+			<div class="col-md-12">
+			<!--<img src="img/header.jpg" class="responsive">-->
+			</div>
+		</div>
+		<div class="row"><!--menu-->
+			<div class="col-md-12">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#"></a>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+				        <ul class="nav navbar-nav navbar-right">
+				            <li><a href="../Main/Index.html">خروج</a></li>
+				    		<li class="dropdown mega-dropdown active">
+							    <a href="#" class="dropdown-toggle" data-toggle="dropdown">پنل مدیریت <span class="caret"></span></a>				
+								<div class="dropdown-menu mega-dropdown-menu">
+				                    <div class="container-fluid">
+				                            <ul class="nav-list list-inline">
+				                                <li><a href="ConfigUsers.html"><img src="img/ok-user.png"><span>تایید کاربر</span></a></li>
+				                            <li><a href="EditUsers.html"><img src="img/edit_user.png"><span>ویرایش کاربر</span></a></li>
+				                            <li><a href="Grouping.html"><img src="img/User-Group.png"><span>گروه بندی</span></a></li>
+				                            <li><a href="EditKhabar.html"><img src="img/edit-khabar.png"><span>ویرایش خبر</span></a></li>
+				                            <li><a href="EditSlide.html"><img src="img/Slide-Show.png"><span>ویرایش اسلاید شو</span></a></li>
+				                            <li><a href="#"><img src="img/edit-address.png"><span>ویرایش آدرس</span></a></li>
+				                            <li><a href="ChangePassword.html"><img src="img/Lock.png"><span>تغییر رمز عبور</span></a></li>
+				                            </ul>
+				                    </div>				                               
+								</div>				
+							</li>
+				        </ul>
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+		  </div>
+		</div>
+		<div class="row"><!--consept-->
+			<div class="col-md-12">
+				<div class="container">
+				<div class="row">
+					<div class="container-fluid">
+						<div class="panel panel-primary">
+						<!-- Default panel contents -->
+							<div class="panel-heading">ویرایش و حذف اعضاء</div>
+							<!-- Table -->
+							<table class="table  table-hover table-bordered">
+								<tr>
+									<td>نام</td>
+									<td>نام خانوادگی</td>
+									<td>نام پدر</td>
+									<td>شماره موبایل</td>
+									<td>کد ملی</td>
+									<td>مدرک تحصیلی</td>
+									<td>تاریخ تولد</td>
+									<td>نام کاربری</td>
+									<td>رمز عبور</td>
+									<td>معرف</td>
+									<td>شماره گروه</td>
+									<td>تاریخ ثبت نام</td>
+									<td>تاریخ پرداخت وام</td>
+									<td>ویرایش</td>
+									<td>حذف</td>									
+								</tr>
+								<tr>
+									<td>نام عضو 1</td>
+									<td>نام خانوادگی عضو 1</td>
+									<td>نام پدر عضو 1</td>
+									<td>شماره موبایل عضو 1</td>
+									<td>کد ملی عضو 1</td>
+									<td>مدرک تحصیلی عضو 1</td>
+									<td>تاریخ تولد عضو 1</td>
+									<td>نام کاربری عضو 1</td>
+									<td>رمز عبور عضو 1</td>
+									<td>معرف عضو 1</td>
+									<td>شماره گروه عضو 1</td>
+									<td>تاریخ ثبت نام عضو 1</td>
+									<td>تاریخ پرداخت وام عضو 1</td>
+									<td><button class="btn btn-success btn-block">ویرایش</button></td>
+									<td><button class="btn btn-success btn-block">حذف</button></td>
+								</tr>
+								<tr>
+									<td>نام عضو 2</td>
+									<td>نام خانوادگی عضو 2</td>
+									<td>نام پدر عضو 2</td>
+									<td>شماره موبایل عضو 2</td>
+									<td>کد ملی عضو 2</td>
+									<td>مدرک تحصیلی عضو 2</td>
+									<td>تاریخ تولد عضو 2</td>
+									<td>نام کاربری عضو 2</td>
+									<td>رمز عبور عضو 2</td>
+									<td>معرف عضو 2</td>
+									<td>شماره گروه عضو 2</td>
+									<td>تاریخ ثبت نام عضو 2</td>
+									<td>تاریخ پرداخت وام عضو 2</td>
+									<td><button class="btn btn-success btn-block">ویرایش</button></td>
+									<td><button class="btn btn-success btn-block">حذف</button></td>
+								</tr>
+								<tr>
+									<td>نام عضو 3</td>
+									<td>نام خانوادگی عضو 3</td>
+									<td>نام پدر عضو 3</td>
+									<td>شماره موبایل عضو 3</td>
+									<td>کد ملی عضو 3</td>
+									<td>مدرک تحصیلی عضو 3</td>
+									<td>تاریخ تولد عضو 3</td>
+									<td>نام کاربری عضو 3</td>
+									<td>رمز عبور عضو 3</td>
+									<td>معرف عضو 3</td>
+									<td>شماره گروه عضو 3</td>
+									<td>تاریخ ثبت نام عضو 3</td>
+									<td>تاریخ پرداخت وام عضو 3</td>
+									<td><button class="btn btn-success btn-block">ویرایش</button></td>
+									<td><button class="btn btn-success btn-block">حذف</button></td>
+								</tr>
+								<tr>
+									<td>نام عضو 4</td>
+									<td>نام خانوادگی عضو 4</td>
+									<td>نام پدر عضو 4</td>
+									<td>شماره موبایل عضو 4</td>
+									<td>کد ملی عضو 4</td>
+									<td>مدرک تحصیلی عضو 4</td>
+									<td>تاریخ تولد عضو 4</td>
+									<td>نام کاربری عضو 4</td>
+									<td>رمز عبور عضو 4</td>
+									<td>معرف عضو 4</td>
+									<td>شماره گروه عضو 4</td>
+									<td>تاریخ ثبت نام عضو 4</td>
+									<td>تاریخ پرداخت وام عضو 4</td>
+									<td><button class="btn btn-success btn-block">ویرایش</button></td>
+									<td><button class="btn btn-success btn-block">حذف</button></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="row"><!--Foother-->
+			<div class="col-md-12">
+			    
+			</div>
+		</div>
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/JavaScript" src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/JavaScript" src="js/bootstrap.min.js"></script>
+	<script type="text/JavaScript" src="js/npm.js"></script>
+	<script type="text/JavaScript" src="js/Tabs.js"></script>
+  </body>
+</html>
